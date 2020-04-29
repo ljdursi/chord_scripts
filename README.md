@@ -32,3 +32,7 @@ Edit `${CHORD_DATA_PATH}/.auth_config.json` to include the client secret
 and owner ID from keycloak out, and you should now be able to start the singularity container:
 
 `./start_singularity.sh`
+
+And restart nginx:
+
+`sudo systemctl restart nginx`
