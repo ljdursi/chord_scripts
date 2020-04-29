@@ -1,0 +1,7 @@
+{
+  "CHORD_DEBUG": false,
+  "CHORD_PERMISSIONS": true,
+  "CHORD_HOST": "${FULLHOST}",
+  "CHORD_URL": "https://${FULLHOST}/",
+  "CHORD_REGISTRY_URL": "https://${FULLHOST}/"
+}

@@ -1,0 +1,6 @@
+{
+  "OIDC_DISCOVERY_URI": "https://${FULLHOST}/auth/realms/${REALM}/.well-known/openid-configuration",
+  "CLIENT_ID": "${CLIENTID}",
+  "CLIENT_SECRET": "client-secret-from-keycloak.out",
+  "OWNER_IDS": ["user-id-from-keycloak-oiut"]
+}
