@@ -7,7 +7,7 @@ for file in *.template
 do
     basefile="${file%.*}"
     cat $file \
-        | envsubst '$ADMIN $ADMINPWD $USER $USREPWD $SITEID $CLIENTID $REALM $HOSTNAME $DOMAIN $FULLHOST $CHORD_TEMP_PATH $CHORD_DATA_PATH' \
+        | envsubst '$ADMIN $ADMINPWD $USER $USERPWD $SITEID $CLIENTID $REALM $HOSTNAME $DOMAIN $FULLHOST $CHORD_TEMP_PATH $CHORD_DATA_PATH' \
 	> $basefile
 done
 
